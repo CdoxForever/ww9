@@ -1,0 +1,37 @@
+.title > li > a:link{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+a:visited{
+    color: indigo;
+}
+
+.title > li::before{
+    content: "  =:^_^:= ";
+    }
+
+    .title > li::after{
+        content: " ( ͡° ͜ʖ ͡°) ";
+    }
+
+    #q {
+        font-size: 30px;
+    }
+
+    h1:hover{
+        color: firebrick;
+    }
+
+    .w > li{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+    }
+
+    .w > li:nth-child(odd){
+        color: magenta;
+    }
+
+    #e{
+        font-size: 30px;
+    }
