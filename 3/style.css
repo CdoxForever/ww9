@@ -1,0 +1,59 @@
+body{
+    background-color: brown;
+}
+#q{
+    color: magenta;
+    font-family: Arkhip;
+    font-size: 20px;
+background-color: orange;
+}
+
+#w{
+    color: rgb(255, 0, 0);
+    font-family: Arkhip;
+    font-size: 40px; 
+    background-color: rgb(76, 0, 255);
+}
+
+#e{
+    color: rgb(76, 0, 255);
+    font-family: Arkhip;
+    font-size: 60px;
+    background-color: springgreen;
+}
+
+
+h1 {
+    font-family: Evgenia-Deco;
+    background-color: chartreuse;
+
+}
+
+@font-face {
+	font-family: 'Arkhip';
+	src: url('./fonts/arkhip.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/arkhip.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/arkhip.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/arkhip.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/arkhip.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/arkhip.svg#arkhip') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Evgenia-Deco';
+	src: url('./fonts/evgenia_deco.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/evgenia_deco.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/evgenia_deco.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/evgenia_deco.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/evgenia_deco.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/evgenia_deco.svg#evgenia_deco') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+#r{
+    color: orange;
+    font-size: 40px;
+}
+h2{
+    background-color: cyan;
+    font-size: 35px;
+}
