@@ -1,0 +1,50 @@
+.wrapper{
+    height: 500px;
+    width: 500px;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(2,50px);
+    grid-template-rows: repeat(3, 50px); 
+    gap: 5px;
+    grid-template-areas: 
+    "bl gr"
+    "bl ye"
+    "bl ye";
+    /* justify-items: stretch;
+    align-items: stretch; */
+    /* justify-content: space-evenly; */
+    align-content: space-evenly;
+    
+}
+
+
+
+
+
+
+
+.black{
+background-color: black;
+color: aliceblue;
+grid-area: bl;
+align-self: stretch;
+justify-self: start;
+}
+.green{
+background-color: green;
+color: rgb(24, 192, 214);
+grid-area: gr;
+}
+.yellow{
+background-color: yellow;
+grid-area: ye;
+}
+/* .red{
+background-color: red;
+}
+.blue{
+background-color: blue;
+}
+.purple{
+background-color: purple;
+} */

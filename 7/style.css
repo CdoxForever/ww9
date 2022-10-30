@@ -33,7 +33,7 @@
 .friends{
     border: 5px solid rgb(234, 0, 255);
     border-radius:10px;
-    padding: 1cm;
+    padding: 0cm 1cm 0cm 1cm;
     margin: 0px 0px 0px 1px;
 }
 
@@ -48,6 +48,8 @@ font-size: 150%;
 
 .photos{
     border: 5px solid black;  
+    width: 900px;
+    height: 300px;
 }
 
 .py{
@@ -58,4 +60,28 @@ font-size: 150%;
 .smth{
     border: 3px rgb(0, 0, 0) solid;
     margin: 2px;
+}
+
+.head{
+    display: flex;
+}
+
+.po{
+    margin: 0px 6px 0px 6px;
+}
+
+.ava{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.friends{
+    display: flex;
+    width: 350px;
+    height: 200px;
+}
+
+.text{
+    justify-content: stretch;
 }
