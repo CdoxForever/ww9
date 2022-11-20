@@ -1,37 +1,29 @@
-
-@media screen and (max-width:1600px) {
-    .picone{
-        width:400px
-    }
-}
-
 .wrapper{
-    height: 500px;
+    border-color: 3px solid black ;
     display: flex;
 }
 
-.left{
-    height: 400px;
+.charecter-list{
+    border-color: 3px solid rgb(0, 255, 149) ;
+    width: 20%;
+    position: sticky;
+}
+
+.info{
+    border-color: 3px solid rgb(255, 0, 0) ;
     width: 60%;
-    background-color: blueviolet;
-    color: antiquewhite;
+
 }
 
-.right{
-    height: 400px;
-    width: 40%;
-    background-color: rgb(231, 146, 18);
-    color: brown;
+.idk{
+    border-color: 3px solid aquamarine ;
+    width: 20%;
+
 }
 
-*{
-    padding: 10px;
-    margin: 5px;
+.header{
 }
 
-@media screen and (max-width:600px){
-    .wrapper{
-        display:block;
-        min-width: 400px;
-    }
+.glavtext {
+    text-align: center;
 }
