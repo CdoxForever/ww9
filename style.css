@@ -1,0 +1,37 @@
+
+@media screen and (max-width:1600px) {
+    .picone{
+        width:400px
+    }
+}
+
+.wrapper{
+    height: 500px;
+    display: flex;
+}
+
+.left{
+    height: 400px;
+    width: 60%;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+.right{
+    height: 400px;
+    width: 40%;
+    background-color: rgb(231, 146, 18);
+    color: brown;
+}
+
+*{
+    padding: 10px;
+    margin: 5px;
+}
+
+@media screen and (max-width:600px){
+    .wrapper{
+        display:block;
+        min-width: 400px;
+    }
+}

@@ -1,0 +1,15 @@
+.wrapper{
+    border-color: 3px black solid;
+}
+
+.charecter-list{
+    border-color: 3px rgb(0, 255, 149) solid;
+}
+
+.info{
+    border-color: 3px rgb(255, 0, 0) solid;
+}
+
+.idk{
+    border-color: 3px aquamarine solid;
+}
