@@ -1,18 +1,41 @@
+@import  './fonts/days/days.css';
+*{
+    font-family: 'Days';
+}
+
 .wrapper{
     border-color: 3px solid black ;
     display: flex;
+    background-color: rgb(58, 39, 15);
 }
 
 .charecter-list{
-    border-color: 3px solid rgb(0, 255, 149) ;
+    background-color: rgb(136, 97, 61);
     width: 20%;
+    height: 40%;
     position: sticky;
+    top: 0;
+    left: 0;
+    border-block: 1rem solid;
+    /* direction: rtl; */
+    margin: 0 0 0 5px;
+    border-radius: 10%;
+}
+
+.url > ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.charecter-list > ul {
+    list-style-type: none;
+    text-align: center;
 }
 
 .info{
     border-color: 3px solid rgb(255, 0, 0) ;
     width: 60%;
-
+    margin: 0 10px;
 }
 
 .idk{
@@ -22,8 +45,83 @@
 }
 
 .header{
+    background-color: rgb(119, 100, 78);
+    border-radius: 5%;
+    position: sticky;
+    top: 5px;
+    left: 5px;
+    border: 4mm ridge rgba(77, 68, 28, 0.6);
 }
 
 .glavtext {
     text-align: center;
+    font-size: xx-large;
+    
 }
+
+.url{
+    width: 20%;
+    position: sticky;
+    background-color: rgb(131, 97, 47);
+    border-block: 1rem solid;
+    direction: rtl;
+    padding: 7px;
+    border-radius: 5%;
+    display: flex;
+    position: sticky;
+    top: 5px;
+    right: 5px;
+}
+
+.link{
+    font-size: x-large;
+    color: rgb(66, 25, 25);
+
+
+}
+
+.link:hover{
+    color: brown;
+}
+
+.choose{
+    color: black;
+    align-self: center;
+}
+
+.choose:hover{
+    color: rgb(71, 71, 71);
+}
+
+.first{
+    height: 2px;
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+.glavlink{
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    
+}
+
+.glavlink:hover{
+    color: rgb(59, 0, 0);
+}
+
+.about{
+    border: 4mm ridge rgba(77, 68, 28, 0.6);
+    background-color: rgb(36, 26, 14);
+}
+
+.about > span{
+    color: aliceblue;
+}
+
+.one{
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+.about > ul{
+    list-style-type: square;
