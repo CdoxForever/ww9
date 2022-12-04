@@ -125,3 +125,42 @@
 
 .about > ul{
     list-style-type: square;
+}
+
+.mode > span{
+    color: antiquewhite;
+}
+
+.mode > li{
+    color: rgb(255, 252, 249);
+}
+
+.invisable{
+    opacity: 50%;
+}
+
+.logo{
+    align-self: center;
+}
+
+.infosg{
+    color: aliceblue;
+}
+
+.pgpfi{
+    width: 64px;
+    height: 64px;
+}
+
+.quest{
+    color: aliceblue;
+}
+
+.media-body > p{
+    color: antiquewhite;
+}
+
+.media{
+    border: 4mm ridge rgba(73, 57, 22, 0.6);
+    background-color: rgb(36, 26, 14);
+}
