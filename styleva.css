@@ -105,9 +105,151 @@
     color: rgb(59, 0, 0);
 }
 
+.about{
+    border: 4mm ridge rgba(77, 68, 28, 0.6);
+    background-color: rgb(36, 26, 14);
+}
+
+.about > span{
+    color: aliceblue;
+}
+
+.one{
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+.about > ul{
+    list-style-type: square;
+}
+
+.mode > span{
+    color: antiquewhite;
+}
+
+.mode > li{
+    color: rgb(255, 252, 249);
+}
+
+.invisable{
+    opacity: 50%;
+}
+
+.logo{
+    width: 240px;
+    height: 250px;
+}
+
+.infosg{
+    color: aliceblue;
+}
+
+.pgpfi{
+    width: 64px;
+    height: 64px;
+}
+
+.quest{
+    color: aliceblue;
+}
+
+.media-body > p{
+    color: antiquewhite;
+}
+
+.media{
+    border: 4mm ridge rgba(73, 57, 22, 0.6);
+    background-color: rgb(36, 26, 14);
+}
+
+.lote{
+    display: flex;
+    align-items: baseline;
+}
+
+.gamo{
+    color: antiquewhite;
+}
+
 .coment{
     width: 100%;
     height: 100px ;
     background-color: rgb(44, 31, 33);
     border: 3mm ridge rgba(121, 71, 38, 0.6);
+}
+
+.com{
+    color: bisque;
+    font-size: larger;
+}
+
+.comehani{
+    color: beige;
+}
+
+.mecha{
+    color: antiquewhite;
+}
+
+.othinfo{
+    border: 3mm ridge rgba(136, 79, 40, 0.6);
+}
+
+.che-ph{
+    width: 20%;
+    height: 40% ;
+    border: 3mm ridge rgba(44, 34, 85, 0.6)
+
+}
+
+.name{
+    color: blanchedalmond;
+    font-size: xx-large;  
+    border:  2mm ridge rgba(170, 112, 26, 0.6);
+}
+
+.whsh{
+    color: blanchedalmond;
+    font-size: x-large;
+    align-self: center;
+    border:  2mm ridge rgba(170, 112, 26, 0.6);
+}
+
+.stry{
+    color: blanchedalmond;
+    font-size: x-large;
+    align-self: center;
+}
+
+.story{
+    border:  2mm ridge rgba(170, 112, 26, 0.6);
+}
+
+.claspe{
+    border:  2mm ridge rgba(255, 239, 95, 0.6);
+    display: flex;
+    align-items: center;
+}
+
+.blck{
+    color: rgb(255, 242, 225);
+    font-size: x-large;
+}
+
+.blockba{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 3px;
+    border: 4mm dashed rgb(63, 40, 19);
+    width: 41%;
+    height: 300px;
+}
+
+.specmov{
+    margin: 3px;
+    border: 4mm dashed rgb(63, 40, 19);
+    width: 58%;
+    height: 300px;
 }

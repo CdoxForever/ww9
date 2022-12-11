@@ -196,3 +196,17 @@
 .othinfo{
     border: 3mm ridge rgba(136, 79, 40, 0.6);
 }
+
+.che-ph{
+    width: 20%;
+    height: 40% ;
+    border: 3mm ridge rgba(44, 34, 85, 0.6)
+
+}
+
+.name{
+    color: blanchedalmond;
+    font-size: xx-large;  
+   border: 3mm ridge rgba(170, 112, 26, 0.6);
+}
+
