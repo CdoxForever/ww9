@@ -72,7 +72,7 @@
 .link{
     font-size: x-large;
     color: rgb(66, 25, 25);
-
+    cursor: pointer;
 
 }
 
@@ -196,7 +196,7 @@
 }
 
 .che-ph{
-    width: 250px;
+    width: 340px;
     height: 400px ;
     border: 3mm ridge rgba(44, 34, 85, 0.6);
     align-self: flex-start;
@@ -233,7 +233,7 @@
 
 .blck{
     color: rgb(255, 242, 225);
-    font-size: large;
+    font-size: x-large;
 }
 
 .blockba{
@@ -264,12 +264,19 @@
 
 .spsl{
     color: rgb(255, 242, 225);
-    font-size: x-large;
-    margin: 3px;
+    font-size: xx-large;
+    margin: 15px;
+
 }
 
 .subword{
     color: rgb(207, 191, 177);
     font-size: large;
-    margin: 3px;
+    margin: 10px;
+}
+
+.spslp{
+    color: rgb(255, 242, 225);
+    font-size: xx-large;    
+    margin: 7px 4px 0px 4px;
 }
