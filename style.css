@@ -1,0 +1,10 @@
+@import  './fonts/static/static.css';
+*{
+    font-family: 'Static';
+}
+
+.wrapper{
+    background-color: rgb(255, 78, 78);
+}
+
+@keyframes appearance 
