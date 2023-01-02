@@ -1,10 +1,49 @@
 @import  './fonts/static/static.css';
+
 *{
     font-family: 'Static';
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    }
+
 .wrapper{
-    background-color: rgb(255, 78, 78);
+    border-color: 3px solid rgb(255, 255, 255) ;
+    background: rgb(255, 0, 0);
 }
 
-@keyframes appearance 
+header{
+    background-color: rgb(157, 185, 79);
+    width:100%;
+    height: 130px;
+    display: flex;
+}
+
+.txt{
+    height: 90px;
+}
+
+.stxt{
+    margin: 5px 0px 0px 0px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.adrs{
+    font-size: 4ch;
+    margin: 70px 0px 0px 25px;
+    color: rgb(67, 85, 33) ;
+}
+
+
+.adr{
+    font-size: 4ch;
+    margin: 70px 0px 5px 0px;
+    color: rgb(13, 82, 28) ;
+}
+
+
