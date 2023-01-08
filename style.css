@@ -1,13 +1,10 @@
-@import  './fonts/static/static.css';
+/* @import  './fonts/static/static.css'; */
 
 *{
     font-family: 'static';
-}
-
-* {
     margin: 0;
     padding: 0;
-    }
+}
 
 .wrapper{
     border-color: 3px solid rgb(255, 255, 255) ;
@@ -68,6 +65,7 @@ nav{
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+    z-index: 100;
 }
 
 .buttcolor{
@@ -116,5 +114,17 @@ footer{
 .main{
     border: 3px  solid black;
     width: 90%;
-    margin: ;
+    margin: 0px 100px;
+}
+
+@font-face {
+	font-family: 'static';
+	src: url('./fonts/static/static.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/static.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/static.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/static.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/static.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/static.svg#static') format('svg'), /* Chrome < 4, Legacy iOS */
+		url('./fonts/static.svg#static') format('svg'); /* Chrome < 4, Legacy iOS */
+
 }
