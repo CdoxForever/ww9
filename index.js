@@ -62,5 +62,15 @@
 // console.log(typeof `String(num)`);
 // console.log(num + 'hello');
 
-const a = prompt()
-console.log(a + 1);
+// const a = prompt()
+// console.log(a + 1);
+
+// const str = 'k10a6646634634563456'
+// console.log(typeof str);
+// const str1 = Number(str);
+// console.log(str1);
+// console.log(parseInt(str))
+
+const bool = 3564
+console.log(typeof Boolean(bool));
+console.log(typeof !!bool)
