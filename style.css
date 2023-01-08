@@ -1,7 +1,18 @@
 /* @import  './fonts/static/static.css'; */
+@font-face {
+	font-family: 'static';
+	src: url('/fonts/static/static.eot'); /* IE 9 Compatibility Mode */
+	src: url('/fonts/static.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('/fonts/static.woff2') format('woff2'), /* Super Modern Browsers */
+		url('/fonts/static.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('/fonts/static.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('/fonts/static.svg#static') format('svg'), /* Chrome < 4, Legacy iOS */
+		url('/fonts/static.svg#static') format('svg'); /* Chrome < 4, Legacy iOS */
 
-*{
-    font-family: 'static';
+}
+
+* {
+    font-family: 'static, sans-serif';
     margin: 0;
     padding: 0;
 }
@@ -75,8 +86,13 @@ nav{
 }
 
 .buttcolor:hover{
-    background: rgb(178,230,6);
+    background: rgb(20, 211, 78);
 }
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    background: rgb(71, 20, 211);
+}
+
 
 
 .classone{
@@ -117,14 +133,3 @@ footer{
     margin: 0px 100px;
 }
 
-@font-face {
-	font-family: 'static';
-	src: url('./fonts/static/static.eot'); /* IE 9 Compatibility Mode */
-	src: url('./fonts/static.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('./fonts/static.woff2') format('woff2'), /* Super Modern Browsers */
-		url('./fonts/static.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('./fonts/static.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('./fonts/static.svg#static') format('svg'), /* Chrome < 4, Legacy iOS */
-		url('./fonts/static.svg#static') format('svg'); /* Chrome < 4, Legacy iOS */
-
-}
