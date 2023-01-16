@@ -83,14 +83,20 @@ nav{
     background: rgb(178,230,6);
     border: none;
     box-shadow: none;
+    border-radius: 0%;
 }
 
+
+.btn-secondary.focus, .btn-secondary:focus {
+    background: rgb(178,230,6);
+    box-shadow: none;
+}
 .buttcolor:hover{
     background: rgb(20, 211, 78);
 }
 
 .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
-    background: rgb(71, 20, 211);
+    background: rgb(28, 105, 47);
 }
 
 
@@ -108,16 +114,13 @@ main{
     margin: 50px 0px 0px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
 }
 
 .buttontxt{
     color: rgb(46, 54, 77);
 }
 
-button{
-
-}
 
 footer{
     background-color: rgb(82, 161, 102);
@@ -130,6 +133,10 @@ footer{
 .main{
     border: 3px  solid black;
     width: 90%;
-    margin: 0px 100px;
+    margin: 0px ;
 }
 
+.orhydeya{
+    width: 285px ;
+    height: 300px;
+}
