@@ -60,7 +60,7 @@
 // console.log(arr4);
 // console.log(pop);
 
-// arr4.unshift(3,2,1)// вырезает из начала массива
+// arr4.unshift(3,2,1)// вставлчет  начала массива
 // console.log(arr4);
 // const shift = arr4.shift()
 // console.log(arr4);
@@ -84,17 +84,62 @@
 
 
 // задачи
-//1
+//0
 // const inner = prompt('write to get caps lock')
 // console.log(inner.toLocaleUpperCase());
+//01
+// const myName = prompt()
+// console.log(myName);
+// const imyafami = myName.split(' ')
+// console.log(myName);
+// imyafami [0]= imyafami[0].toLocaleLowerCase()
+// imyafami [1]= imyafami[1].toLocaleUpperCase()
+// console.log(imyafami);
+// const newmyname = imyafami.join(' ')
+// console.log(newmyname);
+// 1
+// const str1 ='Hello'
+// const str2='world!'
+// const str3=','
+// console.log(str1.concat(str3,' ',str2,));
 //2
-const myName = prompt()
-console.log(myName);
-const imyafami = myName.split(' ')
-console.log(myName);
-imyafami [0]= imyafami[0].toLocaleLowerCase()
-imyafami [1]= imyafami[1].toLocaleUpperCase()
-console.log(imyafami);
-const newmyname = imyafami.join(' ')
-console.log(newmyname);
-// 3
+// let a = 10
+// let b = 2 
+// let c = 5
+// console.log(a+c+b);
+//3
+// const a = 17
+// const b = 10
+// const c = a-b
+// const d = 7
+// const result = c + d
+// console.log(result);
+//4
+// const str = 'I learn javascript!'
+// console.log(str.replaceAll(' ','_'));
+//5
+// let str = 'I learn javascript!'
+// console.log(str.length); 
+//6
+// const arr = [1,2,3,4]
+// const arr1 = arr[0] + arr[1]
+// const arr2 = arr[2] + arr[3]
+// const result = arr1 + arr2 
+// console.log(result);
+//7 undone
+// const str = 'Little-cutie-kittens'
+// const oddstr = (str) = str % 2 !== 0;
+// const oddstr1 = oddstr.toLocaleUpperCase()
+// console.log(oddstr1);
+//8
+// const arr = ['a']
+// arr.push( 'y', 't', 'r', 'e', 'w', 'q')
+// arr.unshift('q', 'w', 'e', 'r', 't', 'y',)
+// console.log(arr)
+//9
+// const myNameAge = prompt()
+// console.log(myNameAge);
+// const imyafami = myNameAge.split(' ')
+// const str = `Hello ${imyafami[0]}! You are ${imyafami[1]} years`
+// console.log(str);
+
