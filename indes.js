@@ -102,7 +102,18 @@
 // const arr = [5,4,3,2,1]
 // console.log(...arr);
 
-function uravnenie (a,b,c){
-   console.log(b*b-4*a*c);
-}
+ function str(string){
+    let counter = 0
+    const arr = [' ', '.', ',','!']
+    for (let i = 0; i < string.length; i++) {
+       if (string[i] === string[i].toUpperCase() && !arr.includes(string[i])){
+        counter++
+       }
+        
+    }
+    console.log(counter);
+ }
+
+
+ str ('I Like Kittens')
 
