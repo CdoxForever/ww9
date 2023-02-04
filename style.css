@@ -23,8 +23,8 @@
 }
 
 header{
-    background: rgb(157,185,64);
-    background: linear-gradient(153deg, rgba(157,185,64,1) 17%, rgba(174,228,115,1) 55%, rgba(128,241,130,1) 100%);
+    background: rgb(51,134,58);
+    background: linear-gradient(180deg, rgba(51,134,58,1) 0%, rgba(87,204,93,1) 55%, rgba(37,218,52,1) 100%);
     width:100%;
     height: 130px;
     display: flex;
@@ -32,14 +32,21 @@ header{
 
 .txt{
     height: 90px;
+   
 }
 
 .stxt{
     margin: 5px 0px 0px 0px;
 }
 
+.drip{
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: rgb(184, 233, 192);
+}
+
 .logo{
     width: 100px;
+
 }
 
 .adrs{
@@ -72,15 +79,18 @@ header{
 
 nav{
     position: sticky;
-    background: rgb(178,230,6);
+    top: 0;
+    left: 0;
+    background:rgba(37,218,52,1) 100%;
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    z-index: 100;
+    z-index: 100; 
+    
 }
 
 .buttcolor{
-    background: rgb(178,230,6);
+    background:rgba(37,218,52,1) 100%;
     border: none;
     box-shadow: none;
     border-radius: 0%;
@@ -112,6 +122,7 @@ nav{
 
 main{
     margin: 50px 0px 0px 0px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,12 +142,19 @@ footer{
 }
 
 .main{
-    border: 3px  solid black;
+
     width: 90%;
-    margin: 0px ;
+    margin: 0px ; 
+    background-color: rgb(181, 231, 192);
+    display: flex;
 }
 
 .orhydeya{
     width: 285px ;
     height: 300px;
+}
+
+.card{
+    border-radius: 2%;
+    justify-content: space-around;
 }
