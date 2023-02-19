@@ -1,3 +1,4 @@
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,26 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="user-name">
-        <p>whats your name</p>
-        <input id="inpuname" type="text" placeholder="write your name">
-        <button id="usename"> lets go</button>
+        <p>Введи имя</p>
+        <input id="name" type="text" placeholder="Введи имя"><br>
+        <button id="to-count">Давай дальше</button>
     </div>
     <div class="game-count">
-        <p>how much time you will play?</p>
-        <input id="inpucount" type="text" placeholder="write your number">
-        <button id="usecount" disabled> lets go</button>
+        <p>Сколько раз будем играть?</p>
+        <input id="count" value="1" type="number" placeholder="Количество попыток"><br>
+        <button id="to-game">Давай дальше</button>
     </div>
     <div class="game">
-        <div class="picas">
-            <img id="paper" class="pivs" src="./images/paper.jpg" alt="paper">
-            <img id="rock" class="pivs" src="./images/rock.jpg" alt="rock">
-            <img id="scissors" class="pivs" src="./images/scissors.jpg" alt="scisors">
+        <div class="pics">
+            <img id="rock" src="./images/rock.jpg" alt="">
+            <img id="scissors" src="./images/scissors.jpg" alt="">
+            <img id="paper" src="./images/paper.jpg" alt="">
+        </div>
+        <div>
+            <div>
+                <span>игр сыграно:</span>
+                <span id="game-all">0</span>
+            </div>
+            <div>
+                <span>Ваших побед:</span>
+                <span id="user-win">0</span>
+            </div>
+            <div>
+                <span>побед компьютера:</span>
+                <span id="pc-win">0</span>
+            </div>
+        </div>
+        <div class="middle-result">
+            <span id="middle-result"></span>            
+        </div>
+        <div class="result">
+            <span id="result"></span>            
         </div>
     </div>
-    <script src="index.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

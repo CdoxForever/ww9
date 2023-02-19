@@ -1,21 +1,24 @@
-.pivs{
+
+img {
+    width: 150px;
     height: 70px;
-    width: 70px;
-}
-
-button{
-    /* background-color: rgb(249, 255, 163); */
-    color: rgb(0, 162, 255);
-    border: 1px solid rgb(249, 255, 163);
-    border-radius: 20px;
-
-}
-button:hover{
     cursor: pointer;
-    /* background-color: rgb(255, 201, 125);
-    color: rgb(8, 67, 144); */
 }
 
-.game, .game-count {
-    display: none;
+button {
+    /* background-color: sandybrown; */
+    /* color: darkgrey;
+    border: 1px solid sandybrown;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer; */
+    background-color: rgb(245, 245, 220);
+    border: solid rgb(109, 139, 255);
+    border-radius: 20px;
+    color: brown;
+    
 }
+
+/* .game, .game-count {
+    display: none;
+} */

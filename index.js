@@ -1,53 +1,38 @@
-// const btn1 = document.getElementById('btn1')
-// console.log(btn1);
-// const btn2_1 = document.querySelector('.btn2')
-// const btn2_2 = document.querySelector('#btn2')
-// // console.log(btn2_1);
-// // console.log(btn2_2);
+const divUserName = document.querySelector('.user-name')
+const divGameCount = document.querySelector('.game-count')
+const divGame = document.querySelector('.game')
 
+const inputName = document.getElementById('name')
+const btnToCount = document.getElementById('to-count')
+const inputCount = document.getElementById('count')
+const btnToGame = document.getElementById('to-game')
 
-// const li = document.querySelectorAll('li')
-// console.log(li);
+const rockPic = document.getElementById('rock')
+const scissorsPic = document.getElementById('scissors')
+const paperPic = document.getElementById('paper')
+btnToCount.setAttribute('disabled', true)
+divGameCount.style.display = 'none'
+divGame.style.display = 'none'
 
-// for (let elem of li) {
-//     console.log(elem.matches('li[value="6"]'));
-// }
+const showCount = () => {
+    divUserName.style.display = 'none'
+    divGameCount.style.display = 'block'
+    inputName.removeEventListener('input', disableName)
 
-// const chapter = document.querySelector('.chapter');
-// console.log(chapter.closest('.book'));
-// console.log(chapter.closest('.soderzanie'));//показыввает епоказыввает родителя 
-// console.log(chapter.closest('h1'));
-
-// const inpWrite = document.querySelector('#texto')
-// inpWrite.addEventListener('change', () => { //чендж это показываень изменения
-//     console.log(inpWrite.value);
-// })
-
-// const inpWrite = document.querySelector('#texto')
-// inpWrite.addEventListener('input', () => { //input показывает в реальном времени
-//     console.log(inpWrite.value);
-// })
-
-const inpWrite = document.querySelector('#texto')
-const p = document.querySelector('#p')
-const remove = document.querySelector('#btn-rem')
-p.innerHTML = 'Hello'
-
-const inputFunc = () => {
-    console.log(inpWrite.value);
-    p.innerHTML = inpWrite.value
 }
 
-inpWrite.addEventListener('input', inputFunc)
-
-remove.onclick = () => {
-    alert('remove listener from input')
-    inpWrite.value = ''
-    inpWrite.removeEventListener('input', inputFunc)
+const disableName = () => {
+    console.log(inputName.value.length);
+    if (inputName.value.length < 2) {
+        btnToCount.setAttribute('disabled', true)
+    } else {
+        btnToCount.removeAttribute('disabled')
+    }
 }
 
-// inpWrite.addEventListener('input', () => { //input показывает в реальном времени
-//     console.log(inpWrite.value);
-//     p.innerHTML = inpWrite.value // в параграф пишеться то что записанло в константу
-// })
+btnToCount.onclick = () => {
+    showCount()
+} 
 
+
+inputName.addEventListener('input', disableName)
