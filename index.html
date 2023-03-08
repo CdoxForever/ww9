@@ -4,106 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>✿FLowersun✿</title>
+    <title>Document</title>
 </head>
 <body>
-    <div class="wrapper">
-
-        <header>
-            <div class="log">
-                <img class="logo" src="./imgs/logo.png" alt="">
-            </div>
-            <div >
-                <img class="txt" src="/imgs/flosu.png" alt="">
-                <p class="stxt drip">
-                  find a lot of new about vegetable life 
-                </p>
-            </div>
-            <div class="numberadress">
-                <div class="adress">
-                    <div>
-                        <p class="adrs drip">
-                            address:
-                        </p>
-                    </div>
-                    <div>
-                        <p class="adr drip">
-                            28str.Rodenbur,Nydervanin,Luxembourg
-                        </p>
-                    </div>
-                </div>
-
-                <div>
-                    <p class="numb drip">
-                       <i><b>+1(45)3993576</b></i>  
-                    </p>
-                </div>
-                
-            </div>
-        </header>
-          <nav>
-                <div>
-                  <button class="btn btn-secondary dropdown-toggle buttcolor" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="buttontxt">
-                      flower classes
-                    </span> 
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">monocotyledons</a>
-                    <a class="dropdown-item" href="#"> dicotyledons</a>
-                  </div>
-                </div>
-                  <div>
-                    <button class="btn btn-secondary dropdown-toggle buttcolor" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="buttontxt">
-                      types of flowers
-                    </span> 
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">indoors</a>
-                    <a class="dropdown-item" href="#">decorative flowers(now a real flowers)</a>
-                    <a class="dropdown-item" href="#">wildflowers</a>
-                  </div>
-                  </div>
-                  <div>
-                    <button class="btn btn-secondary buttcolor" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <a href="#"><span class="buttontxt">Buy</span></a>
-                  </div>                
-          </nav>  
-        <main>
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active picture">
-                      <img src="/imgs/secondpic.jpg" class="d-block w-100" alt="woman">
-                  </div>
-                  <div class="carousel-item picture">
-                    <img src="./imgs/secondpic.jpg" class="d-block w-100" alt="men">
-                  </div>
-                  <div class="carousel-item picture">
-                    <img src="./imgs/secondpic.jpg" class="d-block w-100" alt="flowers">
-                  </div>
-                </div>
-                  </div>
-              
-              <div class="main">
-                <div class="card" style="width: 18rem;">
-                  <img src="./imgs/flowers/orhideya.jpeg" class="card-img-top orhydeya picture-for-web" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Orchids are easily distinguished from other plants, as they share some very evident derived characteristics or synapomorphies. Among these are: bilateral symmetry of the flower (zygomorphism), many resupinate flowers, a nearly always highly modified petal (labellum), fused stamens and carpels, and extremely small seeds.</p>
-                  </div>
-                </div>
-              </div>
-        </main> 
-
-    </div>
-        <footer>
-
-        </footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script> 
+    <input type="number" id="hour-inp" placeholder="hours">
+    <input type="number" id="min-inp" placeholder="minutes">
+    <input type="number" id="sec-inp" placeholder="seconds">
+    <button id="btn">Set timer</button>
+    <span id="hour"></span>:<span id="min"></span>:<span id="sec"></span>
+    <script src="index.js"></script>
 </body>
 </html>
