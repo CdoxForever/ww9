@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.box{
+    width: 11rem;
+    background-color: aquamarine;
+    height: 5rem;
+    border-radius: 20px ;
+    position:fixed ;
+    top: 10px;
+    left: 20px;
+}
+
+
+section{
+    width: 20px;
+}
