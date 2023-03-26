@@ -33,7 +33,14 @@ module.exports = {
         rules: [
           {
             test: /\.html$/,
-            use: [ 'html-loader' ]
+            use: [
+              {
+                loader: 'html-loader',
+                options: {
+                  sources: true
+                }
+              }
+            ]
           },
           {
             test: /\.scss$/,
@@ -41,7 +48,11 @@ module.exports = {
           },
           {
             test: /\.(png|jpg|jpeg|gif|svg)$/,
-            use: [ 'file-loader' ]
+            type: 'asset'
+          },
+          {
+            test: /\.(ttf | otf | eot | woff | woff2)$/,
+            use: ['file-loader']
           }
         ]
       },

@@ -1,5 +1,6 @@
 import {PATH, location} from './shared/locations' 
 import {links} from './shared/links'
+import {user} from './components/main/main'
 import './style.scss';
 
 window.onload = () => {

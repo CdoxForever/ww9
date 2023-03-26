@@ -1,10 +1,8 @@
-import { user } from "./mog-data"
-// export const getuser = () = {
-//     fetch (`${api}/users`)
-//         .then(res => res.json())
-//         .then(json => console.log(json);)
-// }
+import axios from 'axios';
 
-export const getUser = assync () => {
-    return user 
+export const getUser = async (api) => {
+    // return fetch(api)
+    //     .then(res => res.json())
+
+    return axios.get(api)
 }

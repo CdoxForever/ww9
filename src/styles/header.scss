@@ -1,19 +1,15 @@
 @import './colors.scss';
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 5fr 2fr;
-    background-color: gray;
+    width: 100%;
+    align-items: baseline;
+    background-color: rgb(255, 79, 79);
+    display: block;
+    // display: grid;
+    // grid-template-columns: 1fr 5fr 2fr;
+    
+.logo_ss {
+    
+}
 
-    .logo {
-
-    }
-
-    .company-name {
-
-    }
-
-    .contacts {
-
-    }
 }
