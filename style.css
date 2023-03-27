@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+background-color: azure;
+}
+
+header{
+    background-color: green;
+    width: 100%;
+    height: 9rem;
+}
+
+nav{
+    background-color: aqua;
+    width: 100%;
+    height: 4rem;
+}
+
+
+section{
+    background-color: blue;
+    width: 100%;
+
+}
+
+footer{
+    background-color: brown;
+    width: 100%;
+    height: 9rem;
+}
