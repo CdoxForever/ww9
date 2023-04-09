@@ -1,9 +1,17 @@
-import { getUser } from "../../api/api-handlers";
+import { log } from "console";
+import { API } from '../../api/api';
+import axios from 'axios';
 
-export const user = async () => {
-   const userName = document.getElementById('firstname')
-   const usersecondName = document.getElementById('secondname')
-    await getUser().then(a => console.log(a));
-    avatqar.size.widht = 
+const add = document.getElementById('add')
+
+const pos = async () => {
+    const o = await axios.post(`${API.db}/users.json`,{
+        username : 'lol',
+        password: 42
+    });    
+    return console.log((postObj));
 }
 
+add.onclick = () => {
+    pos()
+}
