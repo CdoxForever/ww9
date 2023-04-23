@@ -1,0 +1,20 @@
+@import './colors.scss';
+
+section {
+    padding: 0, 5%;
+    text-align: -webkit-center;
+    // width:90% ;
+    overflow-y: auto;
+    // display: flex;
+    // justify-items: center;
+    .flags{
+        width: 300px;
+        height: 168px;
+    }
+    .teacher-explaining {
+        display: flex;
+    }
+    .box-explain{
+        display:flex
+    }
+}
