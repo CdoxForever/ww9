@@ -1,19 +1,28 @@
 @import './colors.scss';
 
-header {
-    display: grid;
-    grid-template-columns: 1fr 5fr 2fr;
-    background-color: gray;
-
-    .logo {
-
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
     }
-
-    .company-name {
-
+    
+    .wrapper {
+        justify-content: space-around;
     }
-
-    .contacts {
-
+    
+    /* header style*/
+    #logoSS {
+        width: 250px;
+        height: 250px;
     }
-}
+    
+    header {
+        width:90%;
+        background: rgba(158, 247, 234, 0.658);
+        background: radial-gradient(circle, rgba(158,247,234,1) 56%, rgba(133,237,255,1) 100%);
+        border-radius: 5px;
+        display: flex;
+        align-items: first baseline;
+    }
+    
+    /* header style end */
