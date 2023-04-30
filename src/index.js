@@ -1,6 +1,9 @@
 import {PATH, location} from './shared/locations' 
 import {links} from './shared/links'
+// import {getItems} from './api/api-handlers'
+import {test} from './components/page1/page1'
 import './style.scss';
+// import { test } from './components/page1/page1';
 
 window.onload = () => {
     const pathURL = window.location.pathname
@@ -10,6 +13,8 @@ window.onload = () => {
             break;
         case location.page1:
             links()
+            // getItems()
+            test()
             break;
         case location.page2:
             links()

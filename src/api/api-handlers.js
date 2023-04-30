@@ -1,10 +1,14 @@
-import { user } from "./mog-data"
-// export const getuser = () = {
-//     fetch (`${api}/users`)
-//         .then(res => res.json())
-//         .then(json => console.log(json);)
-// }
+import axios from 'axios';
 
-export const getUser = assync () => {
-    return user 
+const db_url = 'https://super-student-4ccea-default-rtdb.firebaseio.com'
+
+export const getItems = () => {
+    return axios.get(`${db_url}/questions.json`)
+        .then(response => {
+            const questions = Object.keys(response.data)
+            .map( key => ({...response.data[key]}))
+            console.log(questions);
+
+            return questions
+        })
 }
