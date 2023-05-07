@@ -1,11 +1,44 @@
-
-
-.ball {
+.question{
+    padding: 20px;
+    margin-top:50px; 
     width: 90%;
-    background-color: rgb(149, 215, 218);
-
-    img {
-        width: 100px;
-        height: 100px;
+    background-color: aquamarine;
+    #q-img{
+        width: 400px;
+        height: 400px;
     }
+
+    button{
+        width: 200px;
+        height: 30px;
+        font-size: large;
+        border: none;
+        margin: 3px, 0px, 3px, 0px;
+    }
+    button:hover{
+        background-color: rgb(206, 206, 206);
+    }
+    button:active{
+        background-color: rgb(143, 151, 148);
+    }
+    .txt-click{
+        font-size: larger;
+    }
+
 }
+
+    .result{
+        // display: flex;
+        // align-items: baseline;
+        // justify-content: ;
+
+        display: none;
+        margin-top:50px; 
+        width: 90%;
+        background-color: aquamarine;
+        font-size: xx-large;
+        .heppy{
+            width: 500px;
+            height: 200px;
+        }
+    }

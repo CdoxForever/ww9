@@ -1,7 +1,7 @@
 import {PATH, location} from './shared/locations' 
 import {links} from './shared/links'
 // import {getItems} from './api/api-handlers'
-import {test} from './components/page1/page1'
+import {game} from './components/page1/page1'
 import './style.scss';
 // import { test } from './components/page1/page1';
 
@@ -14,7 +14,7 @@ window.onload = () => {
         case location.page1:
             links()
             // getItems()
-            test()
+            game()
             break;
         case location.page2:
             links()
