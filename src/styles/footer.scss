@@ -1,6 +1,15 @@
 footer {
     background-color: rgb(138, 161, 176);
     width: 100%;
-    // height:200px;
+    height: fit-content;
     // margin-top: ;
+    ul {
+        list-style-type: none; /* Квадратные маркеры */
+       }
+    p {
+        color: rgb(54, 54, 65);
+    }
+    li{
+        color: rgb(54, 54, 65);
+    }
 }

@@ -1,0 +1,46 @@
+.teacher{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    background-color: rgb(240, 255, 244);
+    text-align: right;
+    width: 90%;
+    margin-top:10px ;
+    margin: 10px 5% 0px 5%;
+    .mom-photo{
+        width: 250px;
+        height: 350px;
+    }
+    .na-fam{
+        padding: 40px;
+    }
+    .info{
+        font-size: large;
+        padding-right: 20px;
+    }
+
+    .t-name{
+        font-size: xx-large;
+    }
+
+    .t-info{
+        font-size: x-large;
+    }    
+}
+
+.nav-two {
+            
+    nav {
+        padding: 10px;
+        
+        ul {
+            display: flex;
+            list-style: none;
+            li {
+                cursor: pointer;
+                margin: 10px 10px;
+            }
+        }
+    }
+
+}

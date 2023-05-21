@@ -22,9 +22,6 @@ window.onload = () => {
         case location.page3:
             links()
             break;
-        case location.page4:
-            links()
-            break;
         default:
             window.location.href = PATH.main
             break;

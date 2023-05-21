@@ -23,10 +23,6 @@ module.exports = {
         new HTMLWebpackPlugin({
           filename: 'page3.html',
           template: './src/components/page3/page3.html',
-        }),
-        new HTMLWebpackPlugin({
-          filename: 'page4.html',
-          template: './src/components/page4/page4.html',
         })
     ],
     module: {
